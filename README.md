@@ -52,9 +52,10 @@
 | Quantidade         |         | Senha        |
 | Data               |         | Função       |
 +--------------------+         +--------------+
+```
+### Fase 2: Desenvolvimento do Backend
 
-Fase 2: Desenvolvimento do Backend
-Etapas:
+**Etapas:**
 Configurar Ambiente:
 
 Instalar Python e bibliotecas necessárias (ex: conector MySQL).
@@ -65,8 +66,8 @@ Implementar operações CRUD para cada entidade.
 Camada de Lógica de Negócios:
 
 Definir regras de negócios e operações (ex: compras, gerenciamento de inventário).
-UML:
-
+### UML:
+```plaintext
 +-----------------+         +------------------+
 |   ProductDAO    |         | SupplierDAO      |
 +-----------------+         +------------------+
@@ -84,9 +85,11 @@ UML:
 | +updateTransaction()|         | +updateUser()|
 | +deleteTransaction()|         | +deleteUser()|
 +---------------------+         +--------------+
+```
 
-Fase 3: Desenvolvimento da Interface de Usuário
-Etapas:
+### Fase 3: Desenvolvimento da Interface de Usuário
+
+**Etapas:**
 Escolher Framework de GUI:
 
 Usar PySimpleGUI para simplicidade.
@@ -97,13 +100,15 @@ Implementar GUI:
 
 Desenvolver a interface usando PySimpleGUI.
 Conectar GUI com operações de backend.
-UML:
+### UML:
 
+```plaintext
 +---------------+          +----------------+          +-----------------+
 |  Login GUI    |  ->      |  Dashboard GUI |  ->      | Inventory GUI   |
 +---------------+          +----------------+          +-----------------+
 | +login()      |          | +viewSummary() |          | +viewProducts() |
 +---------------+          +----------------+          +-----------------+
+```
 
 # Implantação:
 
@@ -126,5 +131,5 @@ IDE: PyCharm, Visual Studio Code
 Contribuição
 Sinta-se à vontade para contribuir com o projeto! Se você desejar colaborar, por favor, crie um pull request ou abra uma issue para discutir suas ideias.
 
-Licença
-Este projeto está licenciado sob a MIT License.
+**Licença:**
+Este projeto está licenciado sob a `MIT License`.
