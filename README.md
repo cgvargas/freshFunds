@@ -1,6 +1,39 @@
-# FreshFunds
+### FreshFunds - Gerenciador Financeiro para Hortifruti e Além
 
-**FreshFunds** é um sistema de gerenciamento de inventário e vendas que permite a administração eficiente de produtos, fornecedores, transações e usuários. O projeto se baseia em uma arquitetura de Backend com Python e um banco de dados MySQL.
+---
+
+![FreshFunds](freshfunds_logo.png)
+
+---
+
+## Sobre o FreshFunds
+
+O **FreshFunds** é uma solução de gerenciamento de inventário e vendas, projetada inicialmente para o setor de hortifruti com a visão de expandir para mercados e outros segmentos. Nosso objetivo é fornecer uma ferramenta eficiente e intuitiva para ajudar negócios a gerenciar suas finanças e operações com precisão e facilidade.
+
+## Funcionalidades
+
+### Gestão de Vendas e Despesas
+- **Registro de Vendas**: Acompanhe todas as transações de vendas em tempo real.
+- **Controle de Despesas**: Registre e categorize despesas para melhor controle financeiro.
+- **Relatórios Detalhados**: Gere relatórios financeiros detalhados para análise de desempenho.
+
+### Gestão de Estoque
+- **Controle de Inventário**: Monitore seu estoque com precisão, garantindo que você nunca fique sem produtos.
+- **Alertas de Baixa de Estoque**: Receba notificações quando os níveis de estoque estiverem baixos.
+
+### Interface Intuitiva
+- **Dashboard Interativo**: Visualize rapidamente o estado financeiro do seu negócio.
+- **Interface Amigável**: Design simples e intuitivo para facilitar o uso diário.
+
+### Segurança e Confiabilidade
+- **Backup Automático**: Suas informações sempre seguras com backups automáticos.
+- **Segurança de Dados**: Proteção robusta para garantir a privacidade e integridade dos seus dados.
+
+## Tecnologias Utilizadas
+
+- **Python**: Backend robusto e eficiente.
+- **PySimpleGUI**: Interface gráfica intuitiva e fácil de usar.
+- **MySQL**: Banco de dados relacional para armazenamento seguro e eficiente de dados.
 
 ## Índice
 
@@ -10,7 +43,6 @@
     - [Fase 2: Desenvolvimento do Backend](#fase-2-desenvolvimento-do-backend)
     - [Fase 3: Desenvolvimento da Interface de Usuário](#fase-3-desenvolvimento-da-interface-de-usuário)
 - [Implantação](#implantação)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Contribuição](#contribuição)
 - [Licença](#licença)
 
@@ -53,20 +85,23 @@
 | Data               |         | Função       |
 +--------------------+         +--------------+
 ```
+
 ### Fase 2: Desenvolvimento do Backend
 
-**Etapas:**
-Configurar Ambiente:
+#### Etapas:
 
-Instalar Python e bibliotecas necessárias (ex: conector MySQL).
-Camada de Acesso aos Dados (DAO):
+1. **Configurar Ambiente**:
+   - Instalar Python e bibliotecas necessárias (ex: conector MySQL).
 
-Criar classes Python para interagir com o banco de dados.
-Implementar operações CRUD para cada entidade.
-Camada de Lógica de Negócios:
+2. **Camada de Acesso aos Dados (DAO)**:
+   - Criar classes Python para interagir com o banco de dados.
+   - Implementar operações CRUD para cada entidade.
 
-Definir regras de negócios e operações (ex: compras, gerenciamento de inventário).
-### UML:
+3. **Camada de Lógica de Negócios**:
+   - Definir regras de negócios e operações (ex: compras, gerenciamento de inventário).
+
+#### UML:
+
 ```plaintext
 +-----------------+         +------------------+
 |   ProductDAO    |         | SupplierDAO      |
@@ -89,18 +124,19 @@ Definir regras de negócios e operações (ex: compras, gerenciamento de invent�
 
 ### Fase 3: Desenvolvimento da Interface de Usuário
 
-**Etapas:**
-Escolher Framework de GUI:
+#### Etapas:
 
-Usar PySimpleGUI para simplicidade.
-Desenhar Interface:
+1. **Escolher Framework de GUI**:
+   - Usar PySimpleGUI para simplicidade.
 
-Criar wireframes para cada tela (ex: Login, Dashboard, Gerenciamento de Inventário).
-Implementar GUI:
+2. **Desenhar Interface**:
+   - Criar wireframes para cada tela (ex: Login, Dashboard, Gerenciamento de Inventário).
 
-Desenvolver a interface usando PySimpleGUI.
-Conectar GUI com operações de backend.
-### UML:
+3. **Implementar GUI**:
+   - Desenvolver a interface usando PySimpleGUI.
+   - Conectar GUI com operações de backend.
+
+#### UML:
 
 ```plaintext
 +---------------+          +----------------+          +-----------------+
@@ -110,27 +146,34 @@ Conectar GUI com operações de backend.
 +---------------+          +----------------+          +-----------------+
 ```
 
-# Implantação:
+## Implantação
 
 ### Implantação Local
-Testar a aplicação exaustivamente em uma máquina local.
-Garantir que todas as funcionalidades estejam funcionando corretamente e que o sistema esteja estável.
+- Testar a aplicação exaustivamente em uma máquina local.
+- Garantir que todas as funcionalidades estejam funcionando corretamente e que o sistema esteja estável.
 
 ### Implantação na Nuvem (Etapa Futura Opcional)
-Escolher uma plataforma de nuvem (AWS, GCP, Azure).
-Configurar uma máquina virtual e um serviço de banco de dados.
+- Escolher uma plataforma de nuvem (AWS, GCP, Azure).
+- Configurar uma máquina virtual e um serviço de banco de dados.
+- Implantar a aplicação usando Docker ou outras ferramentas relevantes.
+- Configurar DNS e configurações de segurança.
 
-### Implantar a aplicação usando Docker ou outras ferramentas relevantes.
+## Contribuição
 
-Configurar DNS e configurações de segurança.
-- Tecnologias Utilizadas
-- Linguagens: Python
-- Banco de Dados: MySQL
-- Framework de GUI: PySimpleGUI
-- IDE: PyCharm, Visual Studio Code
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests para novas funcionalidades, correções de bugs ou melhorias na documentação.
 
-**Contribuição:**
-Sinta-se à vontade para contribuir com o projeto! Se você desejar colaborar, por favor, crie um pull request ou abra uma issue para discutir suas ideias.
+## Licença
 
-**Licença:**
-Este projeto está licenciado sob a `MIT License`.
+Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+### Nota Importante
+
+Esta aplicação está atualmente em desenvolvimento e é destinada para fins acadêmicos. Estamos trabalhando para implementar todas as funcionalidades descritas e garantir a estabilidade do sistema. Sua contribuição e feedback são valiosos para nós!
+
+---
+
+Feito com dedicação por [Claudio G. Vargas](https://github.com/CGVARGAS)
+
+![GitHub Stars](https://img.shields.io/github/stars/CGVARGAS/freshfunds?style=social) ![GitHub Forks](https://img.shields.io/github/forks/CGVARGAS/freshfunds?style=social)
