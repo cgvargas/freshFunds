@@ -123,12 +123,13 @@ Configurar uma máquina virtual e um serviço de banco de dados.
 ### Implantar a aplicação usando Docker ou outras ferramentas relevantes.
 
 Configurar DNS e configurações de segurança.
-Tecnologias Utilizadas
-Linguagens: Python
-Banco de Dados: MySQL
-Framework de GUI: PySimpleGUI
-IDE: PyCharm, Visual Studio Code
-Contribuição
+- Tecnologias Utilizadas
+- Linguagens: Python
+- Banco de Dados: MySQL
+- Framework de GUI: PySimpleGUI
+- IDE: PyCharm, Visual Studio Code
+
+**Contribuição:**
 Sinta-se à vontade para contribuir com o projeto! Se você desejar colaborar, por favor, crie um pull request ou abra uma issue para discutir suas ideias.
 
 **Licença:**
