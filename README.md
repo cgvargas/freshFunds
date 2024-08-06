@@ -1,4 +1,4 @@
-### FreshFunds - Gerenciador Financeiro para Hortifruti e Além
+### FreshFunds - Gerenciador Financeiro para Hortifrutis
 
 ---
 
